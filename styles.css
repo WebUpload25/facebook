@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.container {
+    text-align: center;
+}
+
+.logo h1 {
+    color: #1877f2;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.logo p {
+    font-size: 18px;
+    color: #606770;
+}
+
+.login-box {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    text-align: center;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.login-btn {
+    width: 100%;
+    background: #1877f2;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.forgot {
+    display: block;
+    margin: 10px 0;
+    color: #1877f2;
+    text-decoration: none;
+}
+
+hr {
+    border: 0.5px solid #ddd;
+    margin: 15px 0;
+}
+
+.signup-btn {
+    background: #42b72a;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    body {
+      font-size: 14px;
+    }
+    .navbar {
+      padding: 10px;
+    }
+    .nav-container {
+      flex-direction: column;
+      gap: 10px;
+    }
+  }
